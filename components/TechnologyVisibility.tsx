@@ -233,8 +233,8 @@ export function TechnologyVisibility() {
             const from = placedMap[edge.from];
             const to = placedMap[edge.to];
             const key = `${edge.from}-${edge.to}`;
-            const dimmed = Boolean(activeEdges) && !activeEdges.has(key);
-            const emphasized = Boolean(activeEdges) && activeEdges.has(key);
+            const dimmed = activeEdges ? !activeEdges.has(key) : false;
+            const emphasized = activeEdges ? activeEdges.has(key) : false;
             return (
               <motion.path
                 key={key}
