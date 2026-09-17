@@ -6,23 +6,21 @@ export function Hero() {
     <section className="hero" aria-labelledby="hero-heading">
       <div className="wrap hero-grid">
         <div>
-          <p className="eyebrow">Technology Asset &amp; Infrastructure Management</p>
+          <p className="eyebrow">IT Asset Management (ITAM)</p>
           <h1 id="hero-heading">
-            Technology assets.
+            IT Asset Management,
             <br />
-            Infrastructure.
-            <br />
-            Visibility.
+            done properly.
           </h1>
           <p className="lede">
-            HalaOne helps organizations understand, organize, and manage the
-            technology assets and infrastructure that support their operations—
-            so leadership can see what is in place, where it sits, and how it
-            supports the business.
+            HalaOne delivers IT Asset Management for organizations that need
+            to inventory, track, and account for the technology assets and
+            infrastructure supporting their operations—across every site,
+            through every stage of the asset lifecycle.
           </p>
           <div className="cta-row">
             <Link className="btn btn-primary" href="/contact">
-              Start a Conversation
+              Request an Asset Audit
             </Link>
             <a className="btn btn-secondary" href="#visibility">
               See How It Works

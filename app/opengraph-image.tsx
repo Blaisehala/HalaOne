@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og";
 export const runtime = "edge";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-export const alt = "HalaOne — Technology Asset & Infrastructure Management";
+export const alt = "HalaOne — IT Asset Management (ITAM)";
 
 export default function OpenGraphImage() {
   return new ImageResponse(
@@ -33,7 +33,7 @@ export default function OpenGraphImage() {
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
           <div style={{ fontSize: 58, lineHeight: 1.1, maxWidth: 900 }}>
-            Technology assets. Infrastructure. Visibility.
+            IT Asset Management, done properly.
           </div>
           <div style={{ fontSize: 26, color: "#5E646C", maxWidth: 760 }}>
             Technology Asset & Infrastructure Management

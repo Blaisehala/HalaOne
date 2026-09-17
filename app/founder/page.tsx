@@ -26,7 +26,7 @@ export default function FounderPage() {
         </p>
         <p>
           <Link className="btn btn-primary" href="/contact">
-            Start a Conversation
+            Request an Asset Audit
           </Link>
         </p>
         <p>

@@ -5,7 +5,7 @@ import { company } from "@/lib/company";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Start a conversation with HalaOne about technology assets, infrastructure, and visibility.",
+    "Request an IT asset management (ITAM) audit from HalaOne for your technology assets and infrastructure.",
   alternates: { canonical: "/contact" },
 };
 

@@ -29,7 +29,7 @@ export function Header() {
           ))}
         </nav>
         <Link className="btn btn-primary" href="/contact">
-          Start a Conversation
+          Request an Asset Audit
         </Link>
         <button
           className="nav-toggle"
@@ -60,7 +60,7 @@ export function Header() {
           </Link>
         ))}
         <Link className="btn btn-primary" href="/contact" onClick={() => setOpen(false)}>
-          Start a Conversation
+          Request an Asset Audit
         </Link>
       </nav>
     </header>

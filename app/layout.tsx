@@ -23,23 +23,24 @@ const serif = IBM_Plex_Serif({
 export const metadata: Metadata = {
   metadataBase: new URL(company.url),
   title: {
-    default: "HalaOne | Technology Asset & Infrastructure Management",
+    default: "HalaOne | IT Asset Management (ITAM)",
     template: "%s | HalaOne",
   },
   description:
-    "HalaOne helps organizations gain visibility and control over the technology assets and infrastructure supporting their operations.",
+    "HalaOne delivers IT Asset Management (ITAM) for organizations that need to inventory, track, and account for the technology assets and infrastructure supporting their operations.",
   keywords: [
-    "technology asset management",
     "IT asset management",
+    "ITAM",
+    "technology asset management",
+    "asset inventory and audit",
     "technology infrastructure",
-    "technology asset visibility",
     "technology lifecycle management",
     "building technology",
   ],
   openGraph: {
-    title: "HalaOne | Technology Asset & Infrastructure Management",
+    title: "HalaOne | IT Asset Management (ITAM)",
     description:
-      "Visibility and structure for the technology that supports your operations.",
+      "IT Asset Management for the technology assets and infrastructure that support your operations.",
     url: company.url,
     siteName: "HalaOne",
     locale: "en_US",
@@ -47,9 +48,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "HalaOne | Technology Asset & Infrastructure Management",
+    title: "HalaOne | IT Asset Management (ITAM)",
     description:
-      "HalaOne helps organizations understand, organize, and manage technology assets and infrastructure.",
+      "HalaOne delivers IT Asset Management (ITAM) for organizations that need to inventory, track, and account for their technology assets and infrastructure.",
   },
   robots: { index: true, follow: true },
   alternates: { canonical: "/" },

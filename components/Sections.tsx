@@ -6,12 +6,14 @@ export function Problem() {
       <div className="wrap">
         <div className="section-head">
           <p className="eyebrow">The operating problem</p>
-          <h2 id="problem-heading">Technology accumulates. Visibility does not.</h2>
+          <h2 id="problem-heading">Technology accumulates. Accurate records do not.</h2>
           <p className="lede">
             Offices, facilities, and distributed operations collect devices,
             networks, and systems over time. Equipment is deployed, moved,
-            replaced, upgraded, and repurposed. Records lag. Ownership blurs.
-            The environment becomes harder to manage because it is harder to see.
+            replaced, upgraded, and repurposed. Audits lag. Lifecycle status
+            goes untracked. Without a disciplined ITAM process, the asset
+            record falls out of sync with the environment it is supposed to
+            describe.
           </p>
         </div>
         <div className="problem-list">
@@ -19,21 +21,22 @@ export function Problem() {
             <h3>Assets drift</h3>
             <p>
               Hardware and systems change hands across teams and locations
-              without a durable record of what exists and who is responsible.
+              without a lifecycle record of who owns what, where it is, and
+              what condition it is in.
             </p>
           </article>
           <article className="panel">
-            <h3>Infrastructure is implicit</h3>
+            <h3>Audits fall behind</h3>
             <p>
-              Networks, access systems, and connected equipment often sit
-              outside a single view, even when operations depend on them daily.
+              Without a recurring audit cadence, the recorded inventory drifts
+              further from what is actually deployed across sites.
             </p>
           </article>
           <article className="panel">
-            <h3>Decisions lack context</h3>
+            <h3>Records lose accuracy</h3>
             <p>
-              Replacement, support, and investment choices are weaker when
-              leadership cannot answer basic questions about the current estate.
+              Replacement, support, and investment decisions are weaker when
+              the asset record no longer matches the environment it describes.
             </p>
           </article>
         </div>
@@ -48,49 +51,49 @@ export function Services() {
       <div className="wrap">
         <div className="section-head">
           <p className="eyebrow">What HalaOne does</p>
-          <h2 id="services-heading">A focused capability around the technology you already run.</h2>
+          <h2 id="services-heading">IT Asset Management built around the technology you already run.</h2>
           <p className="lede">
-            We help organizations establish a clearer picture of their
-            technology environment and a more disciplined way to keep that
-            picture current. The work is practical, structured, and designed to
-            grow with the organization.
+            HalaOne runs a disciplined ITAM program—inventory, audit, and
+            ongoing record-keeping—for organizations that need to account for
+            what they own. Our approach aligns with ISO 55001 (asset
+            management) and ISO 19770-1 (IT asset management) standards.
           </p>
         </div>
         <div className="pillars">
           <article className="pillar">
             <p className="index">01</p>
-            <h3>Technology Asset Management</h3>
+            <h3>Asset Inventory &amp; Audit</h3>
             <p>
-              Establish visibility into technology assets—ownership, location,
-              status, and lifecycle—so the organization can account for what it
-              has and how it is used.
+              Establish a verified baseline of technology assets—ownership,
+              location, status, and specifications—so the organization can
+              account for what it has and how it is used.
             </p>
           </article>
           <article className="pillar">
             <p className="index">02</p>
-            <h3>Technology Infrastructure</h3>
+            <h3>Lifecycle Tracking</h3>
             <p>
-              Understand and organize the technology infrastructure supporting
-              operations, from networks and connectivity to the systems that
-              keep locations functioning.
+              Track assets as they move through deployment, use, change, and
+              replacement—so decisions are made with current information, not
+              outdated inventories.
             </p>
           </article>
           <article className="pillar">
             <p className="index">03</p>
-            <h3>Asset Visibility</h3>
+            <h3>Multi-Site Asset Records</h3>
             <p>
-              Build clearer records across sites. Reduce guesswork. Give
-              operations and technology teams a shared view of the estate they
-              are expected to support.
+              Build clearer, consistent records across sites. Reduce
+              guesswork. Give operations and technology teams a shared view of
+              the estate they are expected to support.
             </p>
           </article>
           <article className="pillar">
             <p className="index">04</p>
-            <h3>Technology Lifecycle Support</h3>
+            <h3>Managed Program</h3>
             <p>
-              Support technology as it moves through deployment, use, change,
-              and replacement—so decisions are made with current information,
-              not outdated inventories.
+              Keep the asset register current on an ongoing basis, with a
+              standing process for updates, audits, and reporting as the
+              environment changes.
             </p>
           </article>
         </div>
@@ -244,10 +247,11 @@ export function Why() {
             </p>
           </article>
           <article>
-            <h3>Visibility first</h3>
+            <h3>Accuracy first</h3>
             <p>
-              Control starts with knowing what you have and where it is. We
-              prioritize a usable record over unnecessary complexity.
+              Control starts with an asset record that matches reality. We
+              prioritize disciplined auditing and lifecycle tracking over
+              unnecessary complexity.
             </p>
           </article>
           <article>
@@ -329,15 +333,16 @@ export function Cta() {
   return (
     <section className="cta-band" aria-labelledby="cta-heading">
       <div className="wrap">
-        <h2 id="cta-heading">Let’s understand your technology environment.</h2>
+        <h2 id="cta-heading">Let’s get your technology assets under management.</h2>
         <p>
-          If your organization needs better visibility into its technology
-          assets and infrastructure, start a conversation with HalaOne. We will
-          listen first, then determine whether there is a useful next step.
+          If your organization needs a disciplined ITAM program for its
+          technology assets and infrastructure, request an asset audit with
+          HalaOne. We will listen first, then determine whether there is a
+          useful next step.
         </p>
         <div className="cta-row">
           <Link className="btn btn-primary" href="/contact">
-            Start a Conversation
+            Request an Asset Audit
           </Link>
           <Link className="btn btn-secondary" href="/contact">
             Contact HalaOne

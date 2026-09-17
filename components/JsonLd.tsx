@@ -14,7 +14,7 @@ export function JsonLd() {
       addressCountry: "US",
     },
     description:
-      "HalaOne helps organizations understand, organize, and manage technology assets and infrastructure.",
+      "HalaOne delivers IT Asset Management (ITAM) for organizations that need to inventory, track, and account for their technology assets and infrastructure.",
   };
 
   return (
