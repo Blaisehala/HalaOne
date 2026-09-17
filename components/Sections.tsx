@@ -276,42 +276,6 @@ export function Why() {
   );
 }
 
-export function About() {
-  return (
-    <section className="section section--alt" id="about" aria-labelledby="about-heading">
-      <div className="wrap about-grid">
-        <div>
-          <p className="eyebrow">About HalaOne</p>
-          <h2 id="about-heading">An emerging technology company with an operational mindset.</h2>
-          <p>
-            HalaOne LLC is building a focused practice around technology asset
-            and infrastructure management. The company is technical in
-            orientation and practical in method: understand the environment,
-            make it visible, and support better decisions as that environment
-            changes.
-          </p>
-          <p>
-            The long-term direction is a durable capability for organizations
-            that need to govern technology across locations—without pretending
-            the work is already an enterprise platform or a full-stack IT
-            department.
-          </p>
-        </div>
-        <aside className="about-card">
-          <h3>Leadership</h3>
-          <p>
-            HalaOne is founder-led, with a dual emphasis on technical structure
-            and how technology actually behaves inside operating environments.
-          </p>
-          <Link className="btn btn-ghost" href="/founder">
-            Meet the Founder →
-          </Link>
-        </aside>
-      </div>
-    </section>
-  );
-}
-
 export function Future() {
   return (
     <section className="section" id="direction" aria-labelledby="future-heading">

@@ -28,7 +28,7 @@ export function Footer() {
             <h2>Site</h2>
             <Link href="/#services">Services</Link>
             <Link href="/#approach">Approach</Link>
-            <Link href="/#about">About</Link>
+            <Link href="/about">About</Link>
             <Link href="/contact">Contact</Link>
           </div>
         </div>

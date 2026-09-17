@@ -429,48 +429,24 @@ textarea:focus-visible {
   stroke-width: 2;
 }
 
-.visibility-section {
+.lifecycle-section {
   padding: 3.75rem 0 5.4rem;
   border-top: 1px solid var(--line);
   background: #ffffff;
   scroll-margin-top: calc(var(--header-h) + 1rem);
 }
 
-.visibility-stages {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0;
+.lifecycle-flow {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   overflow: hidden;
   background: #ffffff;
 }
 
-.visibility-stage {
-  padding: 1.55rem 1.45rem 1.65rem;
-  border-right: 1px solid var(--line);
-}
-
-.visibility-stage:last-child {
-  border-right: 0;
-}
-
-.visibility-stage .n {
-  font-size: 0.72rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 0.8rem;
-}
-
-.visibility-stage h3 {
-  font-size: 1.28rem;
-  margin-bottom: 0.5rem;
-}
-
-.visibility-stage p {
-  color: var(--ink-soft);
-  font-size: 0.95rem;
+.lifecycle-flow svg {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .problem-list {
@@ -852,18 +828,8 @@ textarea:focus-visible {
   .hero-grid,
   .building-grid,
   .about-grid,
-  .footer-top,
-  .visibility-stages {
+  .footer-top {
     grid-template-columns: 1fr;
-  }
-
-  .visibility-stage {
-    border-right: 0;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .visibility-stage:last-child {
-    border-bottom: 0;
   }
 
   .problem-list,

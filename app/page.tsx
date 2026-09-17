@@ -1,7 +1,6 @@
 import { Hero } from "@/components/Hero";
-import { VisibilitySection } from "@/components/VisibilitySection";
+import { LifecycleFlow } from "@/components/LifecycleFlow";
 import {
-  About,
   Approach,
   Audience,
   BuildingTechnology,
@@ -16,14 +15,21 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <VisibilitySection />
+      <section
+        className="lifecycle-section"
+        id="visibility"
+        aria-label="How it works"
+      >
+        <div className="wrap">
+          <LifecycleFlow />
+        </div>
+      </section>
       <Problem />
       <Services />
       <BuildingTechnology />
       <Approach />
       <Audience />
       <Why />
-      <About />
       <Future />
       <Cta />
     </>

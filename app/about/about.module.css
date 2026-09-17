@@ -1,0 +1,27 @@
+.aboutPage {
+  --accent-bright: #7fc1e8;
+}
+
+/* Compound selectors below deliberately combine the local (hashed) class
+   with the global class via :global() so this override wins on specificity
+   alone, regardless of CSS injection order — no !important needed. */
+
+.eyebrowAccent:global(.eyebrow) {
+  color: var(--accent-bright);
+}
+
+.divider {
+  height: 2px;
+  width: 3rem;
+  margin: 0 0 1.5rem;
+  background: var(--accent-bright);
+  border: none;
+}
+
+.founderLinkAccent:global(.btn-ghost) {
+  color: var(--accent-bright);
+}
+
+.founderLinkAccent:global(.btn-ghost):hover {
+  color: var(--accent-bright);
+}
