@@ -19,7 +19,7 @@ export function Hero() {
             through every stage of the asset lifecycle.
           </p>
           <div className="cta-row">
-            <Link className="btn btn-primary" href="/contact">
+            <Link className="btn btn-primary" href="/get-started">
               Request an Asset Audit
             </Link>
             <a className="btn btn-secondary" href="#visibility">

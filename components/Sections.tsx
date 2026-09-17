@@ -68,6 +68,9 @@ export function Services() {
               location, status, and specifications—so the organization can
               account for what it has and how it is used.
             </p>
+            <Link className="btn btn-ghost" href="/services/audit">
+              Learn more →
+            </Link>
           </article>
           <article className="pillar">
             <p className="index">02</p>
@@ -77,6 +80,9 @@ export function Services() {
               replacement—so decisions are made with current information, not
               outdated inventories.
             </p>
+            <Link className="btn btn-ghost" href="/services/lifecycle">
+              Learn more →
+            </Link>
           </article>
           <article className="pillar">
             <p className="index">03</p>
@@ -95,6 +101,9 @@ export function Services() {
               standing process for updates, audits, and reporting as the
               environment changes.
             </p>
+            <Link className="btn btn-ghost" href="/services/managed-program">
+              Learn more →
+            </Link>
           </article>
         </div>
       </div>
@@ -201,28 +210,31 @@ export function Audience() {
         </div>
         <div className="audience">
           <article>
-            <h3>Businesses</h3>
-            <p>Companies that need a clearer account of the technology supporting daily work.</p>
+            <h3>Property organizations</h3>
+            <p>Managers of physical portfolios who also inherit networks, access systems, and devices.</p>
+            <Link className="btn btn-ghost" href="/industries/property-management">
+              Learn more →
+            </Link>
           </article>
           <article>
-            <h3>Operations teams</h3>
-            <p>Leaders who feel the cost of missing records when something moves, fails, or needs replacement.</p>
-          </article>
-          <article>
-            <h3>Technology teams</h3>
-            <p>IT and infrastructure owners who need operational visibility, not another layer of abstraction.</p>
+            <h3>Multi-location operators</h3>
+            <p>Organizations whose assets are distributed and therefore easy to lose track of.</p>
           </article>
           <article>
             <h3>Facilities teams</h3>
             <p>Groups managing buildings where technology is now part of the operating fabric.</p>
           </article>
           <article>
-            <h3>Property organizations</h3>
-            <p>Managers of physical portfolios who also inherit networks, access systems, and devices.</p>
+            <h3>Technology teams</h3>
+            <p>IT and infrastructure owners who need operational visibility, not another layer of abstraction.</p>
           </article>
           <article>
-            <h3>Multi-location operators</h3>
-            <p>Organizations whose assets are distributed and therefore easy to lose track of.</p>
+            <h3>Businesses</h3>
+            <p>Companies that need a clearer account of the technology supporting daily work.</p>
+          </article>
+          <article>
+            <h3>Operations teams</h3>
+            <p>Leaders who feel the cost of missing records when something moves, fails, or needs replacement.</p>
           </article>
         </div>
       </div>
@@ -305,10 +317,10 @@ export function Cta() {
           useful next step.
         </p>
         <div className="cta-row">
-          <Link className="btn btn-primary" href="/contact">
+          <Link className="btn btn-primary" href="/get-started">
             Request an Asset Audit
           </Link>
-          <Link className="btn btn-secondary" href="/contact">
+          <Link className="btn btn-secondary" href="/get-started">
             Contact HalaOne
           </Link>
         </div>

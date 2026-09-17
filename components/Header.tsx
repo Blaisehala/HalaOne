@@ -4,11 +4,17 @@ import Link from "next/link";
 import { useState } from "react";
 import { Logo } from "./Logo";
 
+const serviceLinks = [
+  { href: "/services/audit", label: "Audit" },
+  { href: "/services/lifecycle", label: "Lifecycle" },
+  { href: "/services/managed-program", label: "Managed Program" },
+];
+
 const links = [
-  { href: "/#services", label: "Services" },
-  { href: "/#approach", label: "Approach" },
+  { href: "/industries/property-management", label: "Industries" },
+  { href: "/resources", label: "Resources" },
   { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
+  { href: "/get-started", label: "Contact" },
 ];
 
 export function Header() {
@@ -22,13 +28,25 @@ export function Header() {
           <span>HalaOne</span>
         </Link>
         <nav className="nav" aria-label="Primary">
+          <div className="nav-item">
+            <button className="nav-dropdown-trigger" type="button" aria-haspopup="true">
+              Services
+            </button>
+            <div className="nav-dropdown-menu">
+              {serviceLinks.map((link) => (
+                <Link key={link.href} href={link.href}>
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          </div>
           {links.map((link) => (
             <Link key={link.href} href={link.href}>
               {link.label}
             </Link>
           ))}
         </nav>
-        <Link className="btn btn-primary" href="/contact">
+        <Link className="btn btn-primary" href="/get-started">
           Request an Asset Audit
         </Link>
         <button
@@ -54,12 +72,23 @@ export function Header() {
         className={`mobile-nav${open ? " open" : ""}`}
         aria-label="Mobile"
       >
+        <p className="nav-sub-label">Services</p>
+        {serviceLinks.map((link) => (
+          <Link
+            key={link.href}
+            className="nav-sub"
+            href={link.href}
+            onClick={() => setOpen(false)}
+          >
+            {link.label}
+          </Link>
+        ))}
         {links.map((link) => (
           <Link key={link.href} href={link.href} onClick={() => setOpen(false)}>
             {link.label}
           </Link>
         ))}
-        <Link className="btn btn-primary" href="/contact" onClick={() => setOpen(false)}>
+        <Link className="btn btn-primary" href="/get-started" onClick={() => setOpen(false)}>
           Request an Asset Audit
         </Link>
       </nav>
