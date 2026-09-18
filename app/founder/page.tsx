@@ -25,7 +25,7 @@ export default function FounderPage() {
           and how we work are more useful than a long biography.
         </p>
         <p>
-          <Link className="btn btn-primary" href="/contact">
+          <Link className="btn btn-primary" href="/get-started">
             Request an Asset Audit
           </Link>
         </p>

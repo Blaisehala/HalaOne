@@ -25,11 +25,17 @@ export function Footer() {
             </a>
           </div>
           <div className="footer-col">
+            <h2>Services</h2>
+            <Link href="/services/audit">Audit</Link>
+            <Link href="/services/lifecycle">Lifecycle</Link>
+            <Link href="/services/managed-program">Managed Program</Link>
+          </div>
+          <div className="footer-col">
             <h2>Site</h2>
-            <Link href="/#services">Services</Link>
-            <Link href="/#approach">Approach</Link>
+            <Link href="/industries/property-management">Industries</Link>
+            <Link href="/resources">Resources</Link>
             <Link href="/about">About</Link>
-            <Link href="/contact">Contact</Link>
+            <Link href="/get-started">Contact</Link>
           </div>
         </div>
         <div className="footer-bottom">
