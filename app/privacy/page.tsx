@@ -22,7 +22,9 @@ export default function PrivacyPage() {
           We collect information you choose to send—typically your name,
           organization, email address, and the contents of a message. We use
           that information to respond and to determine whether there is a
-          relevant next step. We do not sell personal information.
+          relevant next step. Form submissions, including requests to
+          download a guide, are delivered to us by email through Web3Forms, a
+          form-processing service. We do not sell personal information.
         </p>
         <p>
           This site may collect standard technical logs (such as IP address,

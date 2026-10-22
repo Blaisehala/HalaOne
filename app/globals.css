@@ -902,6 +902,23 @@ textarea:focus-visible {
   border-bottom: 0;
 }
 
+.guide-gate {
+  margin-top: 2.25rem;
+  padding: 1.5rem 1.5rem 1.6rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--accent-tint);
+  scroll-margin-top: calc(var(--header-h) + 1.5rem);
+}
+
+.prose .guide-gate h2 {
+  margin-top: 0;
+}
+
+.guide-gate .guide-form {
+  margin-top: 1.1rem;
+}
+
 .article-note {
   margin-top: 2.25rem !important;
   padding: 1rem 1.15rem;

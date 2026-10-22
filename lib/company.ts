@@ -9,4 +9,7 @@ export const company = {
   tagline: "Technology Asset & Infrastructure Management",
   // GA4 measurement ID (public by design). Override with NEXT_PUBLIC_GA_ID.
   gaId: "G-3C95CHZ6WK",
+  // Web3Forms access key (public by design). Empty = forms fall back to mailto
+  // and guide downloads stay open. Override with NEXT_PUBLIC_WEB3FORMS_KEY.
+  web3formsKey: "" as string,
 } as const;
