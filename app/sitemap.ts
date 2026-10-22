@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/services/managed-program",
     "/industries/property-management",
     "/resources",
+    "/resources/php-vulnerability-response",
     "/resources/why-property-managers-lose-track-of-building-tech",
     "/resources/what-is-itam-and-why-it-matters",
     "/about",

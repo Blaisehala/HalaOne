@@ -10,6 +10,12 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    href: "/resources/php-vulnerability-response",
+    title: "PHP Vulnerability: What You Should Do",
+    summary:
+      "A four-step response guide: find where PHP runs, patch to a supported release, isolate what you can't patch, and monitor for compromise.",
+  },
+  {
     href: "/resources/why-property-managers-lose-track-of-building-tech",
     title: "Why Property Managers Lose Track of Building Technology",
     summary:
