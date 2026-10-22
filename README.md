@@ -14,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000).
 ## Analytics
 
 - **Vercel Web Analytics** is always on; enable it in the Vercel project's **Analytics** tab.
-- **Google Analytics 4** loads only when `NEXT_PUBLIC_GA_ID` (e.g. `G-XXXXXXX`) is set in Vercel → Settings → Environment Variables. Redeploy after adding it.
+- **Google Analytics 4** (`G-3C95CHZ6WK`, set in `lib/company.ts`) loads in production builds. `NEXT_PUBLIC_GA_ID` overrides it if set.
 - Custom GA4 events: `guide_download` (params `guide`, `placement`) and `audit_cta_click` (param `source_page`), sent by `components/TrackedLink.tsx`.
 
 ## Notes

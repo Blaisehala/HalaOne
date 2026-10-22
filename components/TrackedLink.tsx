@@ -19,7 +19,7 @@ type TrackedLinkProps = ComponentProps<"a"> & {
  */
 export function TrackedLink({ href, event, params, onClick, ...rest }: TrackedLinkProps) {
   const handleClick: ComponentProps<"a">["onClick"] = (e) => {
-    if (process.env.NEXT_PUBLIC_GA_ID) {
+    if (typeof window !== "undefined" && "dataLayer" in window) {
       sendGAEvent("event", event, { link_url: href, ...params });
     }
     onClick?.(e);
