@@ -4,7 +4,11 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { JsonLd } from "@/components/JsonLd";
 import { company } from "@/lib/company";
+import { GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
+
+const gaId = process.env.NEXT_PUBLIC_GA_ID;
 
 const sans = IBM_Plex_Sans({
   subsets: ["latin"],
@@ -69,7 +73,9 @@ export default function RootLayout({
         <Header />
         <main id="content">{children}</main>
         <Footer />
+        <Analytics />
       </body>
+      {gaId ? <GoogleAnalytics gaId={gaId} /> : null}
     </html>
   );
 }
